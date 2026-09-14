@@ -1,12 +1,12 @@
-🏨 Hotel Booking Cancellation Prediction
+# 🏨 Hotel Booking Cancellation Prediction
 
-An End-to-End Data Science Project
+## An End-to-End Data Science Project
 
 This project was developed as part of the YuvaIntern Junior Data Scientist Virtual Internship. It demonstrates a complete data science workflow, from data cleaning and exploratory analysis through statistical modeling, machine learning, visualization, and business insights.
 
 The project uses the Hotel Booking Demand dataset to investigate customer booking behavior and develop a machine learning model capable of predicting whether a hotel reservation will be cancelled.
 
-📌 Project Overview
+## 📌 Project Overview
 
 Hotel booking cancellations can cause significant challenges for hotels, including revenue loss, unoccupied rooms, inefficient resource allocation, demand-forecasting difficulties, and operational uncertainty.
 
@@ -30,7 +30,7 @@ Business Insights
        ↓
 Recommendations
 
-🎯 Objectives
+## 🎯 Objectives
 
 Clean and preprocess the hotel booking dataset.
 
@@ -58,7 +58,7 @@ Communicate findings using effective visualizations.
 
 Provide actionable business recommendations.
 
-📊 Dataset
+## 📊 Dataset
 
 Dataset Name
 
@@ -75,7 +75,7 @@ is_cancelled
 
 The cleaned dataset used during the project contains 87,203 records and 36 columns.
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 Hotel_Booking_Cancellation_Project/
 │
@@ -120,9 +120,9 @@ Hotel_Booking_Cancellation_Project/
 │
 └── README.md
 
-📅 Weekly Project Breakdown
+## 📅 Weekly Project Breakdown
 
-Week 1 — Data Gathering, Cleaning & Preprocessing
+### Week 1 — Data Gathering, Cleaning & Preprocessing
 
 The first stage prepared the raw dataset for analysis.
 
@@ -157,7 +157,7 @@ Output
 
 hotel_bookings_cleaned.csv
 
-📈 Week 2 — Exploratory Data Analysis
+### 📈 Week 2 — Exploratory Data Analysis
 
 The second stage focused on understanding the cleaned dataset through statistical summaries and visualization.
 
@@ -185,7 +185,7 @@ Heatmaps
 
 Hypothesis testing
 
-📐 Week 3 — Statistical Modeling & Hypothesis Testing
+### 📐 Week 3 — Statistical Modeling & Hypothesis Testing
 
 The third stage focused on statistical modeling.
 
@@ -215,7 +215,7 @@ days_in_waiting_list
 
 The model was evaluated using coefficients, standard errors, z-statistics, p-values, confidence intervals, and Pseudo R².
 
-🤖 Week 4 — Machine Learning Model Development
+### 🤖 Week 4 — Machine Learning Model Development
 
 The fourth stage developed a machine learning classification model.
 
@@ -270,7 +270,7 @@ ROC-AUC
 
 These metrics provide a comprehensive view of the model's classification performance.
 
-📊 Week 5 — Data Visualization & Communication
+### 📊 Week 5 — Data Visualization & Communication
 
 The fifth stage transformed analytical results into an effective visual story.
 
@@ -308,7 +308,7 @@ ROC Curve
 
 Each visualization was designed with clear titles, labels, appropriate chart types, interpretation, and business relevance.
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 The analysis revealed several important patterns in hotel booking behavior:
 
@@ -326,7 +326,7 @@ booking_changes represents the number of modifications made to a reservation bef
 
 Random Forest provides a nonlinear machine learning approach for identifying patterns associated with booking cancellations.
 
-💡 Business Recommendations
+## 💡 Business Recommendations
 
 1. Monitor High-Risk Bookings
 
@@ -352,7 +352,7 @@ ADR and booking behavior can be analyzed together to improve pricing and revenue
 
 Hotels can proactively communicate with customers whose bookings show a higher cancellation risk.
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 The analysis is based on historical booking data.
 
@@ -366,7 +366,7 @@ Logistic Regression assumes a specific relationship between predictors and the l
 
 Random Forest is less interpretable than a simple statistical model.
 
-🚀 Future Scope
+## 🚀 Future Scope
 
 Future improvements could include:
 
@@ -388,7 +388,7 @@ Implementing automated model monitoring.
 
 Retraining the model periodically using new booking data.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 Pandas
@@ -399,7 +399,7 @@ Scikit-learn
 Statsmodels
 Jupyter Notebook
 
-📦 Installation
+## 📦 Installation
 
 Clone the repository:
 
@@ -417,7 +417,7 @@ Launch Jupyter Notebook:
 
 jupyter notebook
 
-▶️ How to Run
+## ▶️ How to Run
 
 Place the dataset inside the Data/ directory.
 
@@ -437,7 +437,7 @@ Review generated visualizations and model results.
 
 Refer to the final project report for the complete analysis.
 
-📁 Deliverables
+## 📁 Deliverables
 
 The project contains:
 
@@ -459,7 +459,7 @@ Final project report
 
 README documentation
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Abhiram Chander Sai Jandhyala
 
@@ -469,7 +469,7 @@ J.B. Institute of Engineering & Technology
 
 YuvaIntern – Junior Data Scientist Intern
 
-📜 Internship
+## 📜 Internship
 
 This project was completed as part of the:
 
@@ -489,10 +489,10 @@ Data Visualization
         +
 Business Communication
 
-⭐ Project Outcome
+## ⭐ Project Outcome
 
 The project demonstrates how raw hotel reservation data can be transformed into actionable business insights through a complete data science workflow. By combining statistical analysis, machine learning, and visual storytelling, the project provides a structured approach to understanding and predicting hotel booking cancellations.
 
-📌 Note
+## 📌 Note
 
 Update the exact model performance metrics in this README using the actual results produced by the final notebook. Avoid using estimated accuracy, precision, recall, F1-score, or ROC-AUC values.
